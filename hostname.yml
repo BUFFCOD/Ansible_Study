@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Update PC
+      dnf:
+        name: update
+        state: latest
+
+
+    - name: Download Http
+      dnf:
+        name: httpd
+        state: present
+    
