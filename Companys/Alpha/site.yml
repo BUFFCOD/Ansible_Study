@@ -1,7 +1,0 @@
----
-# Alpha Corp — master playbook
-# Runs all playbooks in order.
-# To run everything:    ansible-playbook site.yml
-# To run one playbook:  ansible-playbook playbooks/ipam.yml
-
-- ansible.builtin.import_playbook: playbooks/ipam.yml
