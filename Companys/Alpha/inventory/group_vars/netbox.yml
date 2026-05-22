@@ -1,0 +1,5 @@
+---
+# Variables for the [netbox] host group
+netbox_version: "4.5.9"
+netbox_db_password: "AlphaNetbox"      # move to ansible-vault in production
+netbox_superuser_password: "changeme"  # move to ansible-vault in production
